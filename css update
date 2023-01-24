@@ -1,0 +1,278 @@
+body {
+  color: #343a40;
+}
+.main-footer {
+  background-color: #fff;
+  border-top: 1px solid #dee2e6;
+  color: #869099;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: 0px !important;
+  z-index: 99999;
+}
+
+.container-fluid {
+  padding-left: 17.5px;
+  padding-right: 17.5px;
+}
+
+.content-header {
+  padding: 14px 0rem;
+}
+.header-serv p {
+  margin-bottom: 0px;
+}
+
+.header-serv .text-header {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header-serv .text-inv {
+  font-size: 18px;
+}
+
+.card-serv .form-group label {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.card-serv .form-group {
+  margin-bottom: 8px;
+}
+
+.claim-garansi,
+.garansi,
+.new-cust {
+  display: flex;
+  gap: 20px;
+}
+
+.card-footer .btn-serv {
+  text-align: end;
+}
+
+.btn-serv .btn {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.card-serv,
+.table-serv .card {
+  margin-bottom: 120px;
+}
+
+.tambah-cust {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px !important;
+}
+
+.header-serv table {
+  margin-bottom: 0px;
+}
+
+.header-serv table td {
+  padding: 0px 0px 0px 0px;
+}
+.header-serv table th {
+  text-align: end;
+}
+
+.claim {
+  margin-top: 6.5px;
+}
+
+.card-serv .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  background-color: #00000008 !important;
+}
+.card .card-header,
+.dark-custom {
+  background-color: #343a40 !important;
+  border-color: #343a40;
+  color: #fff;
+}
+
+.orange-custom {
+  background-color: #ff7f3f;
+  border-color: #ff7f3f;
+  color: #fff;
+}
+
+.biru-custom {
+  background-color: #2192ff;
+  border-color: #2192ff;
+  color: #fff;
+}
+
+.green-custom {
+  background-color: #3ccf4e;
+  border-color: #3ccf4e;
+  color: #fff;
+}
+
+.grey-custom {
+  background-color: #73777b;
+  color: #fff;
+  border-color: #73777b;
+}
+.text-blue {
+  color: #2192ff;
+}
+.text-red {
+  color: #eb1d36;
+}
+.red-custom {
+  background-color: #eb1d36;
+  border-color: #eb1d36;
+  color: #fff;
+}
+.orange-custom:hover {
+  background-color: #e26221;
+  border-color: #e26221;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.green-custom:hover {
+  background-color: #2ba83a;
+  color: #fff;
+  border-color: #2ba83a;
+  transition: all 0.5s;
+}
+
+.dark-custom:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  transition: all 0.5s;
+}
+
+.red-custom:hover {
+  background-color: #bb172a;
+  color: #fff;
+  border-color: #bb172a;
+  transition: all 0.5s;
+}
+
+.biru-custom:hover {
+  background-color: #2079cc;
+  color: #fff;
+  border-color: #2079cc;
+  transition: all 0.5s;
+}
+
+.btn .card-serv .card-footer {
+  padding-top: 0px;
+}
+
+.line {
+  border-top: 1px solid #c9c7c7;
+  width: 100%;
+  margin: 10px;
+}
+.text-sm th {
+  font-size: 12px;
+  padding: 0.6rem;
+}
+
+.dropdown-icon::after {
+  margin-left: 5px;
+}
+
+.table-serv .nav-tabs {
+  border-bottom: none;
+}
+.table-serv .nav-tabs .nav-link.active {
+  color: #343a40;
+}
+
+.table-serv .nav-tabs .nav-item a {
+  color: #fff;
+}
+.modal-cancel .header {
+  margin-bottom: 15px;
+}
+.modal-cancel .header .title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn-trans-blue {
+  background: rgba(33, 146, 255, 0.1);
+  color: #2192ff;
+  font-weight: 600;
+}
+
+.btn-trans-green {
+  background: rgba(60, 207, 78, 0.1);
+  color: #3ccf4e;
+  font-weight: 600;
+}
+.btn-default {
+  border-color: #c9c8c8;
+  background-color: #fff;
+}
+
+.nopart {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.form-group .title-form {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2192ff;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+  margin-left: 10px;
+}
+
+.part-used .card {
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.part-used p {
+  margin-bottom: 2px;
+}
+
+.part-used .title-part {
+  font-weight: 600;
+}
+
+.part-used .total {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.part-used .card-body,
+.card-riwayat .card-body {
+  background-color: #fff !important;
+  border-radius: 10px;
+}
+
+.card-riwayat .form-label {
+  color: #869099;
+}
+
+.text-nopart {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+table.dataTable > tbody > tr.child span.dtr-title {
+  font-size: 14px;
+}
+
+table.dataTable > tbody > tr.child ul.dtr-details > li {
+  padding: 0.3em 0;
+}

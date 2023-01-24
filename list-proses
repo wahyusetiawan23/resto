@@ -90,6 +90,12 @@
                     </a>
                   </li>
                   <li class="nav-item">
+                    <a href="use-part.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Penggunaan Sparepart</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
                     <a href="garansi-repair.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Garansi</p>
@@ -143,22 +149,22 @@
                   <div class="card-header p-0 pt-1">
                     <ul class="nav nav-tabs">
                       <li class="nav-item">
-                        <a class="nav-link" href="list-antri.html">Antri</a>
+                        <a class="nav-link" href="list-antri.html">Antri <span class="badge badge-success ml-1">10</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="list-proses.html">Proses</a>
+                        <a class="nav-link active" href="list-proses.html">Proses <span class="badge badge-success ml-1">10</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="list-selesai.html">Selesai</a>
+                        <a class="nav-link" href="list-selesai.html">Selesai <span class="badge badge-success ml-1">0</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="list-batal.html">Batal</a>
+                        <a class="nav-link" href="list-batal.html">Batal <span class="badge badge-success ml-1">2</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="list-ambil.html">Diambil</a>
+                        <a class="nav-link" href="list-ambil.html">Diambil <span class="badge badge-success ml-1">1</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="list-refund.html">Refund</a>
+                        <a class="nav-link" href="list-refund.html">Refund <span class="badge badge-success ml-1">2</span></a>
                       </li>
                     </ul>
                   </div>

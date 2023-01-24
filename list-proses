@@ -152,10 +152,10 @@
                         <a class="nav-link" href="list-antri.html">Antri <span class="badge badge-success ml-1">10</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" href="list-proses.html">Proses <span class="badge badge-success ml-1">10</span></a>
+                        <a class="nav-link" href="list-proses.html">Proses <span class="badge badge-success ml-1">10</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="list-selesai.html">Selesai <span class="badge badge-success ml-1">0</span></a>
+                        <a class="nav-link active" href="list-selesai.html">Selesai <span class="badge badge-success ml-1">0</span></a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="list-batal.html">Batal <span class="badge badge-success ml-1">2</span></a>
@@ -203,9 +203,7 @@
                           <td>dion</td>
                           <td>
                             <div class="btn-group btn-group-sm">
-                              <a href="part-repair.html" type="button" class="btn biru-custom">Done</a>
-                              <button type="button" class="btn red-custom" data-toggle="modal" data-target="#modal-cancel">Cancel</button>
-                              <button type="button" class="btn dark-custom" data-toggle="modal" data-target="#modal-note">Note</button>
+                              <a href="service-out.html" type="button" class="btn biru-custom">Taken?</a>
                               <a
                                 target="_blank"
                                 href="https://api.whatsapp.com/send/?phone=%2B628768769345&text=%2ANotifikasi%7Csamsul%7CService%2A+%0AHai+daus%2C+Service-an+anda+Vivo+y12+dengan+nomor+invoice+INV-23012023092330%2C+Sudah+Masuk+kedalam+%2AANTRIAN%2A+kami.+%0AUntuk+Proses+Tracking%2C+Kamu+bisa+memantau+melalui+link+dibawah+ini.+Terimakasih%0A%0Ahttps%3A%2F%2Frbm-borneo.com%2FStore%2Fsamsul%2FcekresiQR%2FINV-23012023092330&type=phone_number&app_absent=0"

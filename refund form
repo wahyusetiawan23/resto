@@ -90,6 +90,12 @@
                     </a>
                   </li>
                   <li class="nav-item">
+                    <a href="use-part.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Penggunaan Sparepart</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
                     <a href="garansi-repair.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Garansi</p>
@@ -206,7 +212,7 @@
                         </div>
                       </div>
                       <div class="btn-serv mt-2">
-                        <a href="list-refund.html" type="submit" class="btn btn-secondary dark-custom">Update</a>
+                        <a onclick="save()" type="submit" class="btn btn-secondary dark-custom">Update</a>
                       </div>
                     </div>
                   </form>
@@ -229,6 +235,19 @@
       $(".select2bs4").select2({
         theme: "bootstrap4",
       });
+    </script>
+    <script>
+      function save() {
+        Swal.fire({
+          title: "Data ",
+          text: "Success Refund",
+          icon: "success",
+          showCancelButton: false,
+          confirmButtonText: "OK",
+        }).then(() => {
+          window.location.href = "list-refund.html";
+        });
+      }
     </script>
   </body>
 </html>

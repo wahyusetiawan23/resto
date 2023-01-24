@@ -90,6 +90,12 @@
                     </a>
                   </li>
                   <li class="nav-item">
+                    <a href="use-part.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Penggunaan Sparepart</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
                     <a href="garansi-repair.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Garansi</p>
@@ -201,7 +207,7 @@
                         </div>
                       </div>
                       <div class="btn-serv mt-2">
-                        <a href="list-selesai.html" type="submit" class="btn btn-secondary dark-custom">Save</a>
+                        <a id="save-button" type="submit" class="btn btn-secondary dark-custom">Save</a>
                       </div>
                     </div>
                   </form>
@@ -226,16 +232,17 @@
       });
     </script>
     <script>
-      document.getElementById("save-button").onclick = function () {
+      document.getElementById("save-button").addEventListener("click", function () {
         Swal.fire({
-          title: "Data Berhasil Disimpan!",
-          text: "",
+          title: "Data",
+          text: "Success Updated",
           icon: "success",
-        }).then(function () {
-          // code untuk pindah halaman
-          window.location.href = "";
+          showCancelButton: false,
+          confirmButtonText: "OK",
+        }).then(() => {
+          window.location.href = "list-selesai.html";
         });
-      };
+      });
     </script>
   </body>
 </html>

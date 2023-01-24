@@ -90,6 +90,12 @@
                     </a>
                   </li>
                   <li class="nav-item">
+                    <a href="use-part.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Penggunaan Sparepart</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
                     <a href="garansi-repair.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
                       <p>Garansi</p>
@@ -236,7 +242,7 @@
                       </div>
 
                       <div class="btn-serv d-flex justify-content-end mt-2">
-                        <a href="list-ambil.html" type="submit" class="btn btn-secondary dark-custom">Save</a>
+                        <a onclick="save()" type="submit" class="btn btn-secondary dark-custom">Save</a>
                       </div>
                     </div>
                   </form>
@@ -270,6 +276,19 @@
         } else {
           form.style.display = "none";
         }
+      }
+    </script>
+    <script>
+      function save() {
+        Swal.fire({
+          title: "Data",
+          text: "Success Updated",
+          icon: "success",
+          showCancelButton: false,
+          confirmButtonText: "OK",
+        }).then(() => {
+          window.location.href = "list-ambil.html";
+        });
       }
     </script>
   </body>

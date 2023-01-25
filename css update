@@ -99,20 +99,20 @@ body {
 }
 
 .orange-custom {
-  background-color: #ff722c;
-  border-color: #ff722c;
-  color: #fff;
+  background-color: #ffb100;
+  border-color: #ffb100;
+  color: #000;
 }
 
 .biru-custom {
-  background-color: #2192ff;
-  border-color: #2192ff;
+  background-color: #3670e2;
+  border-color: #3670e2;
   color: #fff;
 }
 
 .green-custom {
-  background-color: #3ccf4e;
-  border-color: #3ccf4e;
+  background-color: #3ea83e;
+  border-color: #3ea83e;
   color: #fff;
 }
 
@@ -122,7 +122,7 @@ body {
   border-color: #73777b;
 }
 .text-blue {
-  color: #2192ff;
+  color: #3670e2;
 }
 .text-red {
   color: #eb1d36;
@@ -133,16 +133,16 @@ body {
   color: #fff;
 }
 .orange-custom:hover {
-  background-color: #e26221;
-  border-color: #e26221;
-  color: #fff;
+  background-color: #dba016;
+  border-color: #dba016;
+  color: #000;
   transition: all 0.5s;
 }
 
 .green-custom:hover {
-  background-color: #2ba83a;
+  background-color: #2c962c;
   color: #fff;
-  border-color: #2ba83a;
+  border-color: #2c962c;
   transition: all 0.5s;
 }
 
@@ -161,9 +161,9 @@ body {
 }
 
 .biru-custom:hover {
-  background-color: #2079cc;
+  background-color: #2d5dbd;
   color: #fff;
-  border-color: #2079cc;
+  border-color: #2d5dbd;
   transition: all 0.5s;
 }
 
@@ -175,6 +175,7 @@ body {
   border-top: 1px solid #c9c7c7;
   width: 100%;
   margin: 10px;
+  margin-top: 20px;
 }
 .text-sm th {
   font-size: 12px;
@@ -280,4 +281,12 @@ table.dataTable > tbody > tr.child ul.dtr-details > li {
 .info-box {
   min-height: 60px;
   padding: 1rem;
+}
+
+.modal-edit .form-group {
+  margin-bottom: 5px;
+}
+
+.modal-print .d-flex {
+  gap: 5px;
 }

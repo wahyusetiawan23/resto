@@ -118,6 +118,18 @@
                       <p>Penjualan</p>
                     </a>
                   </li>
+                  <li class="nav-item">
+                    <a href="listpart.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>List</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="garansi-part.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Garansi</p>
+                    </a>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -202,7 +214,7 @@
                           <td>200.000</td>
                           <td>Supri</td>
                           <td><button type="button" class="btn btn-trans-blue btn-xs" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Transfer</button></td>
-                          <td><button type="button" class="btn biru-custom disabled btn-xs">Done</button></td>
+                          <td><span class="badge biru-custom">Done</span></td>
                           <td>
                             <div class="btn-group btn-group-sm">
                               <a href="refund-form.html" type="button" class="btn red-custom">Refund</a>
@@ -236,7 +248,7 @@
                           <td>200.000</td>
                           <td>Supri</td>
                           <td><button type="button" class="btn btn-trans-green btn-xs">Cash</button></td>
-                          <td><button type="button" class="btn red-custom disabled btn-xs">Cancel</button></td>
+                          <td><span class="badge red-custom">Cancel</span></td>
                           <td>
                             <div class="btn-group btn-group-sm">
                               <a

@@ -1,0 +1,128 @@
+ <div class="content-wrapper content-serv">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0">Penggunaan Sparepart</h1>
+              </div>
+              <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Repair</a></li>
+                  <li class="breadcrumb-item active">Part Teknisi</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4 col-sm-6 col-12">
+                <div class="info-box shadow-sm">
+                  <span class="info-box-icon bg-danger"><i class="fas fa-wallet"></i></span>
+                  <div class="info-box-content">
+                    <span class="info-box-text">SPAREPART TOKO BULAN INI</span>
+                    <span class="info-box-number">2.215.000</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-12">
+                <div class="info-box shadow-sm">
+                  <span class="info-box-icon bg-success"><i class="fas fa-wallet"></i></span>
+                  <div class="info-box-content">
+                    <span class="info-box-text">SPAREPART LUAR BULAN INI</span>
+                    <span class="info-box-number">2.215.000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md table-serv">
+                <div class="card">
+                  <div class="card-header p-0 pt-1">
+                    <ul class="nav nav-tabs">
+                      <li class="nav-item">
+                        <a class="nav-link" href="use-part.html">Menggunakan</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="no-part.html">Tidak Menggunakan</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="part-luar.html">Sparepart Luar</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body">
+                    <table id="example" class="table table-striped dt-responsive" style="width: 100%">
+                      <thead>
+                        <tr class="text-sm">
+                          <th>INVOICE</th>
+                          <th>TANNGAL BAWA</th>
+                          <th>NAMA TEKNISI</th>
+                          <th>SPAREPART</th>
+                          <th>HARGA</th>
+                          <th>VIEW</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>INV-23012023092330</td>
+                          <td>2022-01-23</td>
+                          <td>daus</td>
+                          <td>LCD+TS VIVO Y91 Y91C Y93 Y95 CROWN SUPER BLACK</td>
+                          <td>70.000</td>
+                          <td><button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal-detail">Detail</button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- modal cancel -->
+      <div class="modal fade" id="modal-detail">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">View Detail Repair</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <th>Invoice</th>
+                    <td>INV-04012023185411</td>
+                  </tr>
+                  <tr>
+                    <th>Konsumen</th>
+                    <td>Dion</td>
+                  </tr>
+                  <tr>
+                    <th>Merek</th>
+                    <td>OPPO</td>
+                  </tr>
+                  <tr>
+                    <th>Tipe</th>
+                    <td>A16</td>
+                  </tr>
+                  <tr>
+                    <th>Kerusakan</th>
+                    <td>MATI</td>
+                  </tr>
+                  <tr>
+                    <th>Harga</th>
+                    <td>500.000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>

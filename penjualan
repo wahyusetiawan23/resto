@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GadgetCare</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../../plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css" />
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css" />
+    <link rel="stylesheet" href="../../dist/css/style.css" />
+  </head>
+
+  <body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+      <div class="preloader flex-column justify-content-center align-items-center">
+        <img class="animation__shake" src="dist/img/logo.png" alt="AdminLTELogo" height="120" width="200" />
+      </div>
+
+      <nav class="main-header navbar navbar-expand navbar-white navbar-light sticky-top">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+              <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Main Sidebar Container -->
+      <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <!-- Sidebar user (optional) -->
+          <div class="user-panel mt-3 pb-3 mb-3 d-flex justify-content-center">
+            <div class="image">
+              <img src="../../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image" />
+            </div>
+          </div>
+
+          <!-- SidebarSearch Form -->
+          <div class="form-inline">
+            <div class="input-group" data-widget="sidebar-search">
+              <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search" />
+              <div class="input-group-append">
+                <button class="btn btn-sidebar">
+                  <i class="fas fa-search fa-fw"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar Menu -->
+          <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+              <li class="nav-item">
+                <a href="dashboard.html" class="nav-link">
+                  <i class="fas fa-tachometer-alt nav-icon"></i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-tools"></i>
+                  <p>
+                    Repair
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="home.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Input Data</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="list-all.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>All Data</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="list-antri.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>List Data</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="use-part.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Penggunaan Sparepart</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="garansi-repair.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Garansi</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-cog"></i>
+                  <p>
+                    Sparepart
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="penjualanpart.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Penjualan</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="listpart.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>List</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="garansi-part.html" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Garansi</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="produk.html" class="nav-link">
+                  <i class="fas fa-boxes nav-icon"></i>
+                  <p>Produk</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="expenses-store.html" class="nav-link">
+                  <i class="nav-icon fas fa-hand-holding-usd"></i>
+                  <p>Pengeluaran Toko</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="customers.html" class="nav-link">
+                  <i class="nav-icon fas fa-user-friends"></i>
+                  <p>Customers</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- /.sidebar-menu -->
+        </div>
+      </aside>
+
+      <div class="content-wrapper content-serv">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0">Penjualan Sparepart</h1>
+              </div>
+              <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Sparepart</a></li>
+                  <li class="breadcrumb-item active">Penjualan Part</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card card-primary card-serv">
+                  <div class="card-header header-serv">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <p class="text-header">Invoice</p>
+                        <p class="text-inv">INV-21012023120603</p>
+                      </div>
+                      <div class="col-md-6">
+                        <table class="table table-borderless">
+                          <tbody>
+                            <tr class="tanggal">
+                              <th>Tanggal</th>
+                              <td><input type="date" class="form-control form-control-sm mt-2" name="tgl" id="tgl" value="2023-01-21" /></td>
+                            </tr>
+                            <tr class="kasir">
+                              <th>Kasir</th>
+                              <td><input type="text" class="form-control form-control-sm mt-2" value="Saya" readonly /></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <form>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md">
+                          <div class="new-cust">
+                            <div class="form-group">
+                              <div class="custom-control custom-radio">
+                                <input class="custom-control-input" type="radio" id="biasa" name="customer" value="biasa" onclick="showForm('biasa')" checked />
+                                <label for="biasa" class="custom-control-label">Customer Biasa</label>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="custom-control custom-radio">
+                                <input class="custom-control-input" type="radio" id="khusus" name="customer" value="khusus" onclick="showForm('khusus')" />
+                                <label for="khusus" class="custom-control-label">Customer Khusus</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="customer">
+                            <div class="form-group" style="display: none" id="form-khusus">
+                              <label for="exampleInputEmail1" class="tambah-cust">
+                                <span>Nama Konsumen</span>
+                                <a class="btn btn-xs btn-primary" data-toggle="modal" data-target="#modal-default">Tambah</a>
+                              </label>
+                              <select class="custom-select" name="garansi" required="">
+                                <option value="1">Day</option>
+                                <option value="2">Week</option>
+                                <option value="3">Month</option>
+                                <option value="4">Year</option>
+                              </select>
+                            </div>
+                            <div class="form-group" id="form-biasa">
+                              <label for="exampleInputEmail1">Nama Konsumen</label>
+                              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="" />
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Alamat</label>
+                              <textarea class="form-control" rows="1" placeholder=""></textarea>
+                            </div>
+                            <div>
+                              <label for="exampleInputEmail1">Kontak (Whatsapp)</label>
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <div class="input-group-text">+62</div>
+                                </div>
+                                <input type="number" min="1" class="form-control" id="dateOut" name="longtimeWaranty" value="" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Pembayaran</label>
+                            <select class="custom-select" name="garansi" required="">
+                              <option value="1">Cash</option>
+                              <option value="2">Transfer</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Voucher</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Masukkan Code Voucher" />
+                              <span class="input-group-append">
+                                <button type="button" class="btn btn-default">CARI</button>
+                              </span>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Garansi</label>
+                            <div class="garansi">
+                              <div class="form-group">
+                                <div class="custom-control custom-radio">
+                                  <input class="custom-control-input" type="radio" id="myCheck" onclick="myFunction()" name="garansi" />
+                                  <label for="myCheck" class="custom-control-label">Yes</label>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="custom-control custom-radio">
+                                  <input class="custom-control-input" type="radio" id="no" onclick="myFunction()" name="garansi" checked />
+                                  <label for="no" class="custom-control-label">No</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="input-group mb-3" style="display: none" id="formInput">
+                            <input type="number" class="form-control" placeholder="integer (positive)" id="dateOut" name="longtimeWaranty" value="" required="" />
+                            <div class="input-group-append">
+                              <select class="custom-select" name="garansi" required="">
+                                <option value="1">Day</option>
+                                <option value="2">Week</option>
+                                <option value="3">Month</option>
+                                <option value="4">Year</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="line"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">FOR SCAN BARCODE</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="" />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">TOTAL</label>
+                            <input type="number" class="form-control" id="exampleInputEmail1" placeholder="" readonly />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="modal fade" id="modal-default">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">New Customer</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nama Konsumen</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="" />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Alamat</label>
+                <textarea class="form-control" rows="1" placeholder=""></textarea>
+              </div>
+              <div>
+                <label for="exampleInputEmail1">Kontak (Whatsapp)</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">+62</div>
+                  </div>
+                  <input type="number" min="1" class="form-control" placeholder="integer (positive)" id="dateOut" name="longtimeWaranty" value="" required="" />
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer text-center"><strong> &copy; CV. MULTI GRAHA RADHHIKA </strong> All rights reserved.</footer>
+      <aside class="control-sidebar control-sidebar-dark"></aside>
+    </div>
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../plugins/sweetalert2/sweetalert2.min.js"></script>
+    <script src="../../dist/js/adminlte.min.js"></script>
+    <script>
+      function showForm(formType) {
+        if (formType === "biasa") {
+          document.getElementById("form-biasa").style.display = "block";
+          document.getElementById("form-khusus").style.display = "none";
+        } else if (formType === "khusus") {
+          document.getElementById("form-biasa").style.display = "none";
+          document.getElementById("form-khusus").style.display = "block";
+        }
+      }
+    </script>
+    <script>
+      function myFunction() {
+        var checkBox = document.getElementById("myCheck");
+        var form = document.getElementById("formInput");
+        if (checkBox.checked == true) {
+          form.style.display = "inline-flex";
+        } else {
+          form.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
